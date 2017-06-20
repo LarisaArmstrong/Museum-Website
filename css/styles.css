@@ -1,0 +1,609 @@
+font-family: 'Oswald', sans-serif;
+font-family: 'Passion One', cursive;
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain) */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* end of eric meyer reset*/
+
+/* styles */
+
+/* index page */
+
+/*.logo {
+	width: 175.4px;
+	height: 40.95px;
+	float: left;
+	box-sizing: border-box;
+}*/
+
+body {
+	background-color: white;
+}
+
+/* nav section */
+
+nav {
+	width: 100%;
+	font-size: 24px;
+	font-family: "Oswald", Helvetica, sans-serif;
+	margin: 0 auto;
+}
+
+nav ul {
+	width: 100%;
+	list-style-type: none;
+	margin-top: 2%;
+	padding: 0;
+
+}
+
+nav li {
+	display: inline;
+	margin: 0 auto;
+	padding: 6%;
+	text-align: center;
+}
+
+nav a {
+	text-decoration: none;
+	color: black;
+}
+
+nav a:hover {
+	text-decoration: underline;
+	color: #A9A9A9;
+	cursor: pointer;
+}
+
+/* container section */ 
+
+.container {
+	width: 100%;
+	background-color: #BF6513;
+	margin: 0 auto;
+	padding: 0;
+}
+
+.home {
+	margin: 0 auto;
+	width: 100%;
+	padding-top: 170px;
+	padding-bottom: 170px;
+}
+
+/* footer section */ 
+
+.foot {
+	font-family: "Oswald", Helvetica, sans-serif;
+	text-align: center;
+	color: black;
+	padding-top: 20px;
+
+}
+
+/* info page */
+
+.container2 {
+	width: 100%;
+	background-color: #254C10;
+	margin: 0 auto;
+	padding-bottom: 20px;
+}
+
+.mainheading {
+	font-family: "Oswald", Helvetica, sans-serif;
+	font-size: 40px;
+	color: white;
+	text-align: center;
+	letter-spacing: 2px;
+	margin: 0 auto;
+	padding-top: 40px;
+}
+
+.description {
+	font-family: "Oswald", Helvetica, sans-serif;
+	font-size: 14px;
+	color: white;
+	text-align: center;
+	letter-spacing: 2px;
+	margin: 0 auto;
+	padding-top: 50px;
+	padding-left: 150px;
+	padding-right: 150px;
+}
+
+.info {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+.open {
+	width: 25%;
+	height: 150px;
+	margin-left: 20%;
+	border-style: solid;
+	border-width: 2px;
+	border-color: white;
+	float: left;
+	box-sizing: border-box;
+	margin-top: 50px;
+}
+
+.heading {
+	font-family: "Oswald", Helvetica, sans-serif;
+	font-size: 21px;
+	color: white;
+	text-align: center;
+	letter-spacing: 2px;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+
+.times {
+	font-family: "Oswald", Helvetica, sans-serif;
+	font-size: 14px;
+	color: white;
+	text-align: center;
+	letter-spacing: 2px;
+	margin: 0 auto;
+	padding: 30px;
+	line-height: 20px;
+}
+
+.contact {
+	width: 15%;
+	float: right;
+	box-sizing: border-box;
+	margin-right: 25%;
+	margin-top: 50px;
+}
+
+.heading2 {
+	font-family: "Oswald", Helvetica, sans-serif;
+	font-size: 21px;
+	color: white;
+	text-align: center;
+	letter-spacing: 2px;
+	margin: 0 auto;
+}
+
+.text {
+	font-family: "Oswald", Helvetica, sans-serif;
+	font-size: 14px;
+	color: white;
+	text-align: center;
+	letter-spacing: 2px;
+	margin: 0 auto;
+}
+
+
+.whale {
+	display: block;
+	width:1000px;
+	margin: 0 auto;
+}
+
+/* expositions page */
+
+.container3 {
+	width: 100%;
+	height: 100%;
+	background-image: url(../img/ep_naturalwhite.png);
+	margin: 0 auto;
+	padding: 0;
+}
+
+.mainheading2 {
+	font-family: "Oswald", Helvetica, sans-serif;
+	font-size: 40px;
+	color: black;
+	text-align: center;
+	letter-spacing: 2px;
+	margin: 0 auto;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+
+.expositions {
+	width: 70%;
+	display: block;
+	margin: 0 auto;
+	padding-bottom: 100px;
+}
+
+/* join and support page */
+
+.container4 {
+	width: 100%;
+	height: 100%;
+	background-image: url(../img/supportpage.png);
+	background-color: #D1BB19
+	margin: 0 auto;
+	padding: 0;
+}
+
+.mainheading3 {
+	font-family: "Oswald", Helvetica, sans-serif;
+	font-size: 40px;
+	color: black;
+	text-align: center;
+	letter-spacing: 2px;
+	margin: 0 auto;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.fammember {
+	width: 350px;
+	height: 400px;
+	background-image: url(../img/green_cup.png);
+	box-shadow: 5px 5px 2.5px #686868;
+	float: left;
+	box-sizing: border-box;
+	margin-left: 20%;
+	margin-top: 60px;
+}
+
+.memberheading {
+	font-family: "Oswald", Helvetica, sans-serif;
+	font-size: 24px;
+	color: white;
+	text-align: left;
+	letter-spacing: 2px;
+	margin: 0 auto;
+	padding-top: 20px;
+	padding-left: 30px;
+}
+
+.membertext {
+	font-family: "Oswald", Helvetica, sans-serif;
+	font-size: 18px;
+	color: white;
+	text-align: left;
+	letter-spacing: 1px;
+	line-height: 20px;
+	margin: 0 auto;
+	padding: 30px;
+}
+
+.buy {
+	background-color: black;
+	color: white;
+	font-family: "Oswald", Helvetica, sans-serif;
+	font-size: 24px;
+	margin: 0 auto;
+	text-align: center;
+	padding: 10px 40px;
+	margin-left: 30px;
+}
+
+.buy:hover,.buy2:hover,.apply:hover,.apply2:hover{
+	background-color: #D1BB19;
+	cursor: pointer;
+}
+
+.member {
+	width: 350px;
+	height: 400px;
+	background-image: url(../img/green_cup.png);
+	box-shadow: 5px 5px 2.5px #686868;
+	float: right;
+	box-sizing: border-box;
+	margin-right: 20%;
+	margin-top: 60px;
+}
+
+.buy2 {
+	background-color: black;
+	color: white;
+	font-family: "Oswald", Helvetica, sans-serif;
+	font-size: 24px;
+	margin-top: 60px;
+	text-align: center;
+	padding: 10px 40px;
+	margin-left: 30px;
+}
+
+.volunteer {
+	width: 600px;
+	height: 250px;
+	background-color: white;
+	margin-top: 600px;
+	margin-left: 30%;
+	padding: 0;
+}
+
+.volunteerheading {
+	color:black;
+	font-family: "Oswald", Helvetica, sans-serif;
+	font-size: 24px;
+	text-align: center;
+	letter-spacing: 2px;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+
+.volunteertext {
+	font-family: "Oswald", Helvetica, sans-serif;
+	font-size: 18px;
+	color: black;
+	text-align: center;
+	letter-spacing: 1px;
+	line-height: 20px;
+	margin: 0 auto;
+	padding: 30px 30px 0 30px;
+}
+
+.apply {
+	background-color: black;
+	color: white;
+	font-family: "Oswald", Helvetica, sans-serif;
+	font-size: 24px;
+	margin-top: 40px;
+	text-align: center;
+	padding: 10px 40px;
+	margin-left: 200px;
+}
+
+.donate {
+	width: 600px;
+	height: 300px;
+	background-color: white;
+	margin-top: 50px;
+	margin-left: 30%;
+	padding: 0;
+	margin-bottom: 150px;
+}
+
+.donateheading {
+	color:black;
+	font-family: "Oswald", Helvetica, sans-serif;
+	font-size: 24px;
+	text-align: center;
+	letter-spacing: 2px;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+
+.donatetext {
+	font-family: "Oswald", Helvetica, sans-serif;
+	font-size: 18px;
+	color: black;
+	text-align: center;
+	letter-spacing: 1px;
+	line-height: 20px;
+	margin: 0 auto;
+	padding: 30px 30px 0 30px;
+}
+
+.apply2 {
+	background-color: black;
+	color: white;
+	font-family: "Oswald", Helvetica, sans-serif;
+	font-size: 24px;
+	margin-top: 40px;
+	text-align: center;
+	padding: 10px 40px;
+	margin-left: 200px;
+}
+
+/* buy tickets page */
+
+.container5 {
+	width: 100%;
+	background-color: #303988;
+	margin: 0 auto;
+	padding-bottom: 10px;
+}
+
+.mothleft {
+	width: 410px;
+	float:left;
+	box-sizing: border-box;
+	margin-top: 20px;
+}
+
+.mothright {
+	width: 410px;
+	float:right;
+	box-sizing: border-box;
+	margin-top: 20px;
+}
+
+.mainheading4 {
+	font-family: "Oswald", Helvetica, sans-serif;
+	font-size: 40px;
+	color: white;
+	text-align: center;
+	letter-spacing: 2px;
+	margin: 0 auto;
+	padding-top: 100px;
+}
+
+.formarea {
+	margin: 0 auto;
+	margin-top: 200px;
+	width: 500px;
+	height: 210px;
+	background-color: #D1BB19
+}
+
+
+.admission1 {
+	width: 166.6px;
+	height: 210px;
+	float:left;
+	box-sizing: border-box;
+	border-style: solid;
+	border-width: 2px;
+	border-color: white;
+}
+
+.adheading {
+	font-family: "Oswald", Helvetica, sans-serif;
+	font-size: 16px;
+	color: white;
+	text-align: center;
+	letter-spacing: 2px;
+	margin: 10px;
+}
+
+.adtext {
+	font-family: "Oswald", Helvetica, sans-serif;
+	font-size: 12px;
+	color: white;
+	text-align: center;
+	letter-spacing: 2px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.adinclude {
+	font-family: "Oswald", Helvetica, sans-serif;
+	font-size: 12px;
+	color: white;
+	text-align: center;
+	letter-spacing: 2px;
+	line-height: 15px;
+	margin: 10px;
+}
+
+.buynow {
+	background-color: #303988;
+	color: #D1BB19;
+	font-family: "Oswald", Helvetica, sans-serif;
+	font-size: 14px;
+	text-align: center;
+	padding: 10px 12px;
+	margin-left: 41.65px;
+}
+
+.buynow:hover {
+	cursor:pointer;
+	background-color: #D1BB19;
+	color: #303988;
+}
+
+.admission2 {
+	width: 166.6px;
+	height: 210px;
+	float: right;
+	box-sizing: border-box;
+	border-style: solid;
+	border-width: 2px;
+	border-color: white;
+}
+
+
+.clearfix {
+	clear: both;
+}
+
+.admission3 {
+	width: 166.6px;
+	height: 210px;
+	float: right;
+	box-sizing: border-box;
+	border-style: solid;
+	border-width: 2px;
+	border-color: white;
+
+}
+
+.buynow2 {
+	background-color: #303988;
+	color: #D1BB19;
+	font-family: "Oswald", Helvetica, sans-serif;
+	font-size: 14px;
+	text-align: center;
+	padding: 10px 12px;
+	margin-left: 41.65px;
+	margin-top: 32px;
+}
+
+.buynow2:hover {
+	cursor:pointer;
+	background-color: #D1BB19;
+	color: #303988;
+}
+
+form {
+	font-family: "Oswald", Helvetica, sans-serif;
+	font-size: 12px;
+	color: white;
+	text-align: center;
+	letter-spacing: 2px;
+	line-height: 15px;
+	padding: 30px;
+	margin: 20px auto;
+	width: 300px;
+	height: 100px;
+}
+
+input {
+	width: 160px;
+	height: 30px;
+	background-color: transparent;
+	border: 1px solid white;
+	display: block;
+	margin: 10px auto
+
+}
+
+
+
+
+
+
+
+
+
